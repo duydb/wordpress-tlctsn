@@ -1,4 +1,4 @@
-<div class="col-md-4 enigma-sidebar">
+<div class="col-md-4 enigma-sidebar pull-left">
 	<?php if ( is_active_sidebar( 'sidebar-primary' ) )
 	{ dynamic_sidebar( 'sidebar-primary' );	}
 	else  { 

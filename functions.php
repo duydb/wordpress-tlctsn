@@ -1,3 +1,5 @@
+
+
 <?php
 /** Theme Name	: Enigma
 * Theme Core Functions and Codes
@@ -413,4 +415,24 @@ function enigma_plugin_recommend(){
 	);
     tgmpa( $plugins );
 }
+?>
+
+<?php
+function custom_head_add_metadata() {
+	global $post;
+	?>
+ 	<meta property="fb:app_id" content="325846021130072" />
+	<meta property="og:site_name" content="ThanhLapCtySieuNhanh.com" />
+	<meta property="og:rich_attachment" content="true" />
+	<meta property="article:publisher" content="https://www.facebook.com/thanhlapctysieunhanh/" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="<?php echo get_permalink($post->ID); ?>" />
+	<meta property="og:title" content="<?php echo $post->post_title; ?>" />
+	<meta property="og:description" content="<?php echo wp_trim_words($post->post_content); ?>" />
+	<meta property="og:image:url" content="<?php echo the_post_thumbnail_url($post->ID) ?>" />
+	<meta property="og:image:width" content="720" />
+	<meta property="og:image:height" content="480" />
+	<?php
+}
+add_action("wp_head", "custom_head_add_metadata");
 ?>
