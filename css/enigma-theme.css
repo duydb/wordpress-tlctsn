@@ -825,3 +825,9 @@ h6 {
     text-align: left;
     font-size: 17px;
 }
+.enigma_footer_widget_column ul{
+    padding-left: 10px;
+}
+.enigma_footer_widget_column .textwidget{
+    white-space: pre-wrap;
+}
