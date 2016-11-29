@@ -28,7 +28,7 @@
 		'fields'=> apply_filters( 'wl_comment_form_default_fields', $fields ),
 		'comment_field'=> '<div class="enigma_form_group"><label for="message">Bình luận *</label>
 		<textarea id="comment" name="comment" class="enigma_con_textarea_control" rows="5"></textarea></div>',		
-		'logged_in_as' => '<p class="logged-in-as">' . __( "Logged in as ",'enigma' ).'<a href="'. admin_url( 'profile.php' ).'">'.$user_identity.'</a>'. '<a href="'. wp_logout_url( get_permalink() ).'" title="Log out of this account">'.__(" Log out?",'enigma').'</a>' . '</p>',
+		'logged_in_as' => '<p class="logged-in-as">' . __( "Xin chào ",'enigma' ).'<a href="'. admin_url( 'profile.php' ).'">'.$user_identity.'</a>'. '<a href="'. wp_logout_url( get_permalink() ).'" title="Log out of this account">'.__(" Đăng xuất?",'enigma').'</a>' . '</p>',
 		'title_reply_to' => __( 'Bình luận: %s','enigma'),
 		'id_submit' => 'enigma_send_button',
 		'label_submit'=>__( 'Gửi bình luận','enigma'),

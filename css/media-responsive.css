@@ -647,10 +647,24 @@
     .home-feature .article-feature {
         width: 50%;
     }
+    .home-feature .article-feature .content h2, .article-feature .content h2{
+        font-size: 1.3em;
+    }
 }
 
 @media only screen and (max-width: 767px) {
  	.home-feature .article-feature {
         width: 100%;
-    }   
+    }
+    .home-feature .article-feature .cover{
+        height: auto;
+    }
+    .article-feature .cover{
+        height: auto;
+        max-height: none;
+    }
+    .home-feature .article-feature .content h2, .article-feature .content h2{
+        margin:0;
+        font-size: 1.4em;
+    }
 }

@@ -36,52 +36,6 @@ if($wl_theme_options['blog_title'] !='') { ?>
 				</a>
 			</div>
 
-			<div class="article-feature">
-				<div class="item">
-				<div class="cover">
-					<a title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>">
-					<?php $img = array('class' => 'enigma_img_responsive');
-						if(has_post_thumbnail()): 
-						the_post_thumbnail('home_post_thumb',$img);
-					endif;?>
-					</a>
-				</div>
-				<div class="content">
-					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				</div>
-				</div>
-			</div><div class="article-feature">
-				<div class="item">
-				<div class="cover">
-					<a title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>">
-					<?php $img = array('class' => 'enigma_img_responsive');
-						if(has_post_thumbnail()): 
-						the_post_thumbnail('home_post_thumb',$img);
-					endif;?>
-					</a>
-				</div>
-				<div class="content">
-					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				</div>
-				</div>
-			</div><div class="article-feature">
-				<div class="item">
-				<div class="cover">
-					<a title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>">
-					<?php $img = array('class' => 'enigma_img_responsive');
-						if(has_post_thumbnail()): 
-						the_post_thumbnail('home_post_thumb',$img);
-					endif;?>
-					</a>
-				</div>
-				<div class="content">
-					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				</div>
-				</div>
-			</div>
-
-			
-
 			<?php  endwhile; 
 			else : ?>
 			<div class="col-md-4 col-sm-12 scrollimation scale-in d2 pull-left">

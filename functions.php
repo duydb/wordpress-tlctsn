@@ -422,6 +422,7 @@ function custom_head_add_metadata() {
 	global $post;
 	?>
  	<meta property="fb:app_id" content="325846021130072" />
+ 	<meta name="title" content="<?php echo $post->post_title; ?>">
  	<meta name="description" content="<?php echo wp_trim_words($post->post_content); ?>">
 	<meta property="og:site_name" content="ThanhLapCtySieuNhanh.com" />
 	<meta property="og:rich_attachment" content="true" />

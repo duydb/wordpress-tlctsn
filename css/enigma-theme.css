@@ -746,7 +746,7 @@ h6 {
 
 .home-feature .article-feature{
     width: 25%;
-    padding: 30px 10px;
+    padding: 30px 16px;
     border-bottom: none;
     padding-top: 0;
 }
@@ -763,9 +763,12 @@ h6 {
 .home-feature .article-feature .cover{
 	width: 100%;
 	padding-top: 0;
+    margin: 0;
+    height: 170px;
 }
 .home-feature .article-feature .content{
-	width: 100%;
+	border-top: 1px solid #efefef;
+    width: 100%;
     padding: 16px 14px 20px;
 }
 .home-feature .article-feature .content h2{
@@ -788,4 +791,32 @@ h6 {
 
 .header_section .logo,.header_section, .header_section {
     text-align: left;
+}
+
+.fa-angle-down{
+    margin-left: 10px;
+}
+
+.enigma_fuul_blog_detail_padding ul li, .enigma_fuul_blog_detail_padding ol li{
+    margin: 0 0 16px;
+    font-size: 17px;
+    margin: 0;
+}
+.enigma_fuul_blog_detail_padding ul, .enigma_fuul_blog_detail_padding ol{
+    padding-left: 20px;
+    margin: 0 0 20px;
+}
+.enigma_fuul_blog_detail_padding img.aligncenter, .enigma_fuul_blog_detail_padding .wp-caption.aligncenter{
+    margin: 10px auto;
+}
+.enigma_fuul_blog_detail_padding *, .enigma_fuul_blog_detail_padding p, .enigma_fuul_blog_detail_padding div, .enigma_fuul_blog_detail_padding h1, .enigma_fuul_blog_detail_padding h2, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h6{
+    font-family: Merriweather, Georgia, serif!important;
+}
+.enigma_fuul_blog_detail_padding p > img.aligncenter {
+    margin: 10px auto;
+    display: block;
+}
+.enigma_fuul_blog_detail_padding p{
+    margin: 0 0 16px;
+    font-size: 17px;
 }
