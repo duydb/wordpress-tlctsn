@@ -20,6 +20,24 @@ if($wl_theme_options['blog_title'] !='') { ?>
 			while($post_type_data->have_posts()):
 			$post_type_data->the_post(); ?>
 			<div class="article-feature">
+			<a title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>">
+				<div class="item">
+				<div class="cover">
+					<?php $img = array('class' => 'enigma_img_responsive');
+						if(has_post_thumbnail()): 
+						the_post_thumbnail('home_post_thumb',$img);
+					endif;?>
+					
+				</div>
+				<div class="content">
+					<h2><?php the_title(); ?></h2>
+				</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="article-feature">
+				<div class="item">
 				<div class="cover">
 					<a title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>">
 					<?php $img = array('class' => 'enigma_img_responsive');
@@ -29,10 +47,41 @@ if($wl_theme_options['blog_title'] !='') { ?>
 					</a>
 				</div>
 				<div class="content">
-					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-					<?php the_excerpt( __( 'Read More' , 'enigma' ) ); ?>
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 				</div>
-	</div>
+				</div>
+			</div><div class="article-feature">
+				<div class="item">
+				<div class="cover">
+					<a title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>">
+					<?php $img = array('class' => 'enigma_img_responsive');
+						if(has_post_thumbnail()): 
+						the_post_thumbnail('home_post_thumb',$img);
+					endif;?>
+					</a>
+				</div>
+				<div class="content">
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+				</div>
+				</div>
+			</div><div class="article-feature">
+				<div class="item">
+				<div class="cover">
+					<a title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>">
+					<?php $img = array('class' => 'enigma_img_responsive');
+						if(has_post_thumbnail()): 
+						the_post_thumbnail('home_post_thumb',$img);
+					endif;?>
+					</a>
+				</div>
+				<div class="content">
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+				</div>
+				</div>
+			</div>
+
+			
+
 			<?php  endwhile; 
 			else : ?>
 			<div class="col-md-4 col-sm-12 scrollimation scale-in d2 pull-left">

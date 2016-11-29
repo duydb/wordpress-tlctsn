@@ -699,8 +699,9 @@ h6 {
     width: 36%;
     float: left;
     padding-top: 26px;
-    max-height: 250px;
+    max-height: 230px;
     overflow: hidden;
+    margin-bottom: 24px;
 }
 
 .article-feature .content {
@@ -709,6 +710,13 @@ h6 {
     max-height: 250px;
     padding-left: 20px;
     overflow: hidden;
+}
+
+.article-feature .content h2{
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: #333;
 }
 
 @media all and (max-width: 480px) {
@@ -730,37 +738,54 @@ h6 {
 
 
 .home-feature{
-    width: 100%;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
+	width: 100%;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .home-feature .article-feature{
-    width: 33%;
-    padding: 20px;
+    width: 25%;
+    padding: 30px 10px;
     border-bottom: none;
     padding-top: 0;
 }
-.home-feature .article-feature .cover{
+.home-feature .article-feature .item{
     width: 100%;
-    padding-top: 0;
+    height: 100%;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 2px 4px 1px #efefef;
+    border-bottom: 4px solid #fff;
+}
+.home-feature .article-feature:hover .item{
+    border-bottom: 4px solid #31A3DD;
+}
+.home-feature .article-feature .cover{
+	width: 100%;
+	padding-top: 0;
 }
 .home-feature .article-feature .content{
-    width: 100%;
-    padding-left: 0;
+	width: 100%;
+    padding: 16px 14px 20px;
 }
-.home-feature .article-feature .content h3{
-    font-size: 1.3em;
+.home-feature .article-feature .content h2{
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin:0;
+    color: #333;
+}
+.home-feature .article-feature:hover .content h2{
+	color: #2a6496;
 }
 .home-feature .article-feature .content p{
-    font-size: 1.1em;
+	font-size: 1.1em;
 }
 .enigma_carousel-navi {display: none}
 .post-content-wrap .enigma_fuul_blog_detail_padding {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
-.header_section .logo,.header_section .head-contact-info, .header_section .social {
+.header_section .logo,.header_section, .header_section {
     text-align: left;
 }

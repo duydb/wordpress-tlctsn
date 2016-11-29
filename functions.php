@@ -191,7 +191,7 @@
 			'name' => __( 'Footer Widget Area', 'enigma' ),
 			'id' => 'footer-widget-area',
 			'description' => __( 'footer widget area', 'enigma' ),
-			'before_widget' => '<div class="col-md-3 col-sm-6 enigma_footer_widget_column">',
+			'before_widget' => '<div class="col-md-6 col-sm-12 enigma_footer_widget_column">',
 			'after_widget' => '</div>',
 			'before_title' => '<div class="enigma_footer_widget_title">',
 			'after_title' => '<div class="enigma-footer-separator"></div></div>',
@@ -422,6 +422,7 @@ function custom_head_add_metadata() {
 	global $post;
 	?>
  	<meta property="fb:app_id" content="325846021130072" />
+ 	<meta name="description" content="<?php echo wp_trim_words($post->post_content); ?>">
 	<meta property="og:site_name" content="ThanhLapCtySieuNhanh.com" />
 	<meta property="og:rich_attachment" content="true" />
 	<meta property="article:publisher" content="https://www.facebook.com/thanhlapctysieunhanh/" />

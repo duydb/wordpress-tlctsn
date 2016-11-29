@@ -10,7 +10,7 @@
 			} else 
 			{ 
 			$args = array(
-			'before_widget' => '<div class="col-md-3 col-sm-6 enigma_footer_widget_column">',
+			'before_widget' => '<div class="col-md-6 col-sm-12 enigma_footer_widget_column">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<div class="enigma_footer_widget_title">',
 			'after_title'   => '<div class="enigma-footer-separator"></div></div>' );
