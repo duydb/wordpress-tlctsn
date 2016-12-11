@@ -4,8 +4,7 @@
 		<div class="row">
 		<?php if(have_posts()) :?>
 			<div class="col-md-12">
-			<h3><?php printf( __( '%s', 'enigma' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?>
-			</h3>
+			<h1><?php printf( __( '%s', 'enigma' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
 			</div>
 		<?php endif; ?>	
 		</div>
@@ -27,7 +26,7 @@
 			</a>
 		</div>
 		<div class="content">
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 			<?php the_excerpt( __( 'Read More' , 'enigma' ) ); ?>
 		</div>
 	</div>

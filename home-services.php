@@ -6,7 +6,7 @@
 	<div class="row">
 		<div class="col-sm-12">
 			<div class="enigma_heading_title">
-				<h3><?php echo esc_attr($wl_theme_options['home_service_heading']); ?></h3>		
+				<h2><?php echo esc_attr($wl_theme_options['home_service_heading']); ?></h2>		
 			</div>
 		</div>
 	</div>

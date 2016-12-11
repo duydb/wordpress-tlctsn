@@ -419,7 +419,26 @@ function enigma_plugin_recommend(){
 
 <?php
 function custom_head_add_metadata() {
-	global $post;
+	if (is_home()){
+		$title = get_bloginfo( 'name', 'display' ) . " | " . get_bloginfo( 'description', 'display');
+		$desc = "Dịch vụ thành lập công ty doanh nghiệp, dịch vụ kế toán, chữ ký số, thay đổi đăng kí doanh nghiệp";
+		?>
+	<meta property="fb:app_id" content="325846021130072" />
+ 	<meta name="title" content="<?php echo $title?>">
+ 	<meta name="description" content="<?php echo $desc?>">
+	<meta property="og:site_name" content="ThanhLapCtySieuNhanh.com" />
+	<meta property="og:rich_attachment" content="true" />
+	<meta property="article:publisher" content="https://www.facebook.com/thanhlapctysieunhanh/" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="<?php esc_url(home_url( '/' )); ?>" />
+	<meta property="og:title" content="<?php echo $title?>" />
+	<meta property="og:description" content="<?php $desc?>" />
+	<meta property="og:image:url" content="http://thanhlapctysieunhanh.com/wp-content/uploads/2016/11/thanh-lap-doanh-nghiep.jpg" />
+	<meta property="og:image:width" content="720" />
+	<meta property="og:image:height" content="480" />
+	<?php
+	}else{
+		global $post;
 	?>
  	<meta property="fb:app_id" content="325846021130072" />
  	<meta name="title" content="<?php echo $post->post_title; ?>">
@@ -435,6 +454,7 @@ function custom_head_add_metadata() {
 	<meta property="og:image:width" content="720" />
 	<meta property="og:image:height" content="480" />
 	<?php
+}
 }
 add_action("wp_head", "custom_head_add_metadata");
 ?>

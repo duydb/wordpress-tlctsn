@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h3><?php if(is_home()){echo "";}else{the_title();} ?></h3>
+				<h1><?php if(is_home()){echo "";}else{the_title();} ?></h1>
 				<!-- BreadCrumb -->
                 <?php if (function_exists('weblizar_breadcrumbs')) weblizar_breadcrumbs(); ?>
                 <!-- BreadCrumb -->

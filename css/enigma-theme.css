@@ -355,6 +355,7 @@ h6 {
 
 .enigma_header_breadcrum_title h1 {
     color: #777777;
+    font-size: 1.3em;
 }
 
 .breadcrumb {
@@ -676,6 +677,10 @@ h6 {
     margin-bottom: 10px;
 }
 
+.enigma_header_breadcrum_title .breadcrumb{
+    font-size: 1.0em;
+}
+
 .enigma_sidebar_widget .input-group {
     width: calc(100% - 66px);
 }
@@ -712,8 +717,8 @@ h6 {
     overflow: hidden;
 }
 
-.article-feature .content h2{
-    font-size: 1.6em;
+.article-feature .content h3{
+    font-size: 1.4em;
     font-weight: 600;
     line-height: 1.4em;
     color: #333;
@@ -771,14 +776,14 @@ h6 {
     width: 100%;
     padding: 16px 14px 20px;
 }
-.home-feature .article-feature .content h2{
+.home-feature .article-feature .content h3{
     font-size: 1.2em;
     font-weight: 600;
     line-height: 1.4em;
     margin:0;
     color: #333;
 }
-.home-feature .article-feature:hover .content h2{
+.home-feature .article-feature:hover .content h3{
 	color: #2a6496;
 }
 .home-feature .article-feature .content p{
@@ -830,4 +835,21 @@ h6 {
 }
 .enigma_footer_widget_column .textwidget{
     white-space: pre-wrap;
+}
+.post-content-wrap .enigma_fuul_blog_detail_padding h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.enigma_heading_title h2 {
+    display: inline-block;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 4px solid #31A3DD;
+    color: #3b3b3b;
 }

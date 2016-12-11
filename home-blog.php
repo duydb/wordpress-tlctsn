@@ -5,7 +5,7 @@ if($wl_theme_options['blog_title'] !='') { ?>
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="enigma_heading_title">
-					<h3><?php echo esc_attr($wl_theme_options['blog_title']); ?></h3>		
+					<h2><?php echo esc_attr($wl_theme_options['blog_title']); ?></h2>		
 				</div>
 			</div>
 		</div>
@@ -30,7 +30,7 @@ if($wl_theme_options['blog_title'] !='') { ?>
 					
 				</div>
 				<div class="content">
-					<h2><?php the_title(); ?></h2>
+					<h3><?php the_title(); ?></h3>
 				</div>
 				</div>
 				</a>
@@ -50,7 +50,7 @@ if($wl_theme_options['blog_title'] !='') { ?>
 						</div>
 					</div>
 				</div>
-				<h2><a href="#"><?php _e('NO Post','enigma'); ?></a></h2>
+				<h3><a href="#"><?php _e('NO Post','enigma'); ?></a></h3>
 				
 				<div class="enigma_tags">
 					<?php _e('Tags :&nbsp;','enigma'); ?>
