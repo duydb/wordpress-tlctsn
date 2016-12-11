@@ -50,7 +50,7 @@
 <div class="row">
 <?php if(get_the_category_list() != '') { ?>
 <p class="enigma_cats"><?php echo __("Chuyên mục ",'enigma');
-the_category(' , '); ?></p>
+the_category(' '); ?></p>
 <?php } ?>
 </div>
 <div class="row">

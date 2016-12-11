@@ -230,6 +230,7 @@
 	background-size: 100% 200%;
 	background-color:#edf0f2;
     background-image: linear-gradient(to bottom, #edf0f2 50%, #31A3DD 50%);
+    margin-right: 10px;
  }
 
 .enigma_tags a:hover , .enigma_cats a:hover{
