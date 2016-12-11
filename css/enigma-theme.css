@@ -816,6 +816,7 @@ h6 {
 }
 .enigma_fuul_blog_detail_padding *, .enigma_fuul_blog_detail_padding table td, .enigma_fuul_blog_detail_padding table th,.enigma_fuul_blog_detail_padding p, .enigma_fuul_blog_detail_padding div, .enigma_fuul_blog_detail_padding h1, .enigma_fuul_blog_detail_padding h2, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h6, .enigma_fuul_blog_detail_padding h2 a{
     font-family: Merriweather, Georgia, serif!important;
+    color: #333;
 }
 .enigma_fuul_blog_detail_padding p > img.aligncenter {
     margin: 10px auto;
@@ -855,4 +856,12 @@ h6 {
 }
 .post-content-wrap .enigma_fuul_blog_detail_padding h2 a {
     font-size: 1.0em;
+    color:#333;
+}
+.enigma_fuul_blog_detail_padding a, .enigma_fuul_blog_detail_padding a *{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.enigma_fuul_blog_detail_padding a:hover, .enigma_fuul_blog_detail_padding a:hover *{
+    color: #31A3DD!important;
 }

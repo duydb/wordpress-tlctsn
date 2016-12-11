@@ -936,9 +936,9 @@ transition: all 0.3s ease 0s;
 .enigma_blog_thumb_wrapper h2 a:hover {
 	color: #34495e !important;
 }
-.enigma_fuul_blog_detail_padding h2 a:hover {
+/*enigma_fuul_blog_detail_padding h2 a:hover {
 	color: #34495e !important;
-}
+}*/
 .enigma_blog_thumb_wrapper{
 	position:relative;
 	overflow:hidden;
@@ -2296,6 +2296,8 @@ max-width: 98%;
 }
 .wp-caption .wp-caption-text {
 margin: 0.8075em 0;
+color: #666;
+font-size: 1.1em;
 }
 .enigma_fuul_blog_detail_padding img {max-width: 100%;height:auto;}
 .enigma-sidebar .input-group{max-width:100%;}
