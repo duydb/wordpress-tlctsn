@@ -814,7 +814,7 @@ h6 {
 .enigma_fuul_blog_detail_padding img.aligncenter, .enigma_fuul_blog_detail_padding .wp-caption.aligncenter{
     margin: 10px auto;
 }
-.enigma_fuul_blog_detail_padding *, .enigma_fuul_blog_detail_padding table td, .enigma_fuul_blog_detail_padding table th,.enigma_fuul_blog_detail_padding p, .enigma_fuul_blog_detail_padding div, .enigma_fuul_blog_detail_padding h1, .enigma_fuul_blog_detail_padding h2, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h6{
+.enigma_fuul_blog_detail_padding *, .enigma_fuul_blog_detail_padding table td, .enigma_fuul_blog_detail_padding table th,.enigma_fuul_blog_detail_padding p, .enigma_fuul_blog_detail_padding div, .enigma_fuul_blog_detail_padding h1, .enigma_fuul_blog_detail_padding h2, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h6, .enigma_fuul_blog_detail_padding h2 a{
     font-family: Merriweather, Georgia, serif!important;
 }
 .enigma_fuul_blog_detail_padding p > img.aligncenter {
@@ -836,7 +836,7 @@ h6 {
 .enigma_footer_widget_column .textwidget{
     white-space: pre-wrap;
 }
-.post-content-wrap .enigma_fuul_blog_detail_padding h2, .post-content-wrap .enigma_fuul_blog_detail_padding h2 a {
+.post-content-wrap .enigma_fuul_blog_detail_padding h2{
     font-size: 1.5em;
     line-height: 1.5em;
 }
@@ -852,4 +852,7 @@ h6 {
     font-weight: 600;
     border-bottom: 4px solid #31A3DD;
     color: #3b3b3b;
+}
+.post-content-wrap .enigma_fuul_blog_detail_padding h2 a {
+    font-size: 1.0em;
 }

@@ -29,7 +29,7 @@
 		</div>
 		<?php endif; ?>
 		<div class="enigma_fuul_blog_detail_padding">
-		<h2><?php if(!is_single()) {?><a href="<?php the_permalink(); ?>"><?php } ?><?php the_title(); ?></a></h2>
+		
 		<?php the_content( __( 'Read More' , 'enigma' ) ); 
 		$defaults = array(
               'before'           => '<div class="enigma_blog_pagination"><div class="enigma_blog_pagi">' . __( 'Pages:','enigma'  ),
