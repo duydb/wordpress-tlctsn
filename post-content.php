@@ -50,12 +50,12 @@
 <div class="row">
 <?php if(get_the_category_list() != '') { ?>
 <p class="enigma_cats"><?php echo __("Chuyên mục ",'enigma');
-the_category(''); ?></p>
+the_category(' '); ?></p>
 <?php } ?>
 </div>
 <div class="row">
 <?php if(get_the_tag_list() != '') { ?>
-<p class="enigma_tags"><?php the_tags( __('Từ khóa : ','enigma'), '', '<br />'); ?></p>
+<p class="enigma_tags"><?php the_tags( __('Từ khóa : ','enigma'), ' ', '<br />'); ?></p>
 <?php } ?>
 </div>
 <div class="push-right">
