@@ -815,7 +815,7 @@ h6 {
     margin: 10px auto;
 }
 .enigma_fuul_blog_detail_padding *, .enigma_fuul_blog_detail_padding table td, .enigma_fuul_blog_detail_padding table th,.enigma_fuul_blog_detail_padding p, .enigma_fuul_blog_detail_padding div, .enigma_fuul_blog_detail_padding h1, .enigma_fuul_blog_detail_padding h2, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h4, .enigma_fuul_blog_detail_padding h6, .enigma_fuul_blog_detail_padding h2 a{
-    font-family: Merriweather, Georgia, serif!important;
+    font-family: 'Noto Serif', serif!important;
     color: #333;
 }
 .enigma_fuul_blog_detail_padding p > img.aligncenter {
